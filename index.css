@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: Arial, sans-serif;
+background-color: rgb(255, 102, 0);
+}
+.items{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items .item{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 2px solid #eee;
+    font-weight: bold;
+    
+}
+.items .item p{
+    margin-left: 20px;
+}
